@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="js-clock">
+      <sub><h4>0000:00:00</h4></sub>
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+      <input
+        type="text"
+        required
+        placeholder="What is your name?"
+        class="todoname"
+      />
+      <input type="submit" value="Submit!" class="nameSubmit" />
+    </form>
+    <h4 class="js-greetings greeting"></h4>
+    <form class="js-toDoForm">
+      <input type="text" required placeholder="Write A To Do" class="todosub" />
+      <input type="submit" value="Submit!" class="todoSubmit" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <!-- <div id="weater-icon"><img id="wicon" src="" alt="Weather icon"></div>  -->
+    <span class="js-weather"> </span>
+    <footer>Develop.by sihyun Lee</footer>
+    <!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
